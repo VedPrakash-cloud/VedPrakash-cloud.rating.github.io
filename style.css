@@ -1,0 +1,102 @@
+body{
+    background-color: hsl(216, 12%, 8%);
+    color: hsl(0, 100%, 100%);
+    margin: 8rem 25rem;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(213, 19%, 18%);
+    padding: 25px;
+    border-radius: 20px;
+}
+.star{
+    width: max-content;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: hsl(211, 21%, 22%);
+}
+.main-heading{
+    font-family: 'Overpass';
+    font-weight: 500;
+}
+.text{
+    font-family: 'Overpass';
+    font-size: medium;
+    word-spacing: 2px;
+    padding-right: 25px;
+    margin-top: 0;
+}
+.rating{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.rating1{
+    font-family: 'Overpass';
+    color: hsl(0, 100%, 100%);
+    font-size: 15px;
+    padding: 20px;
+    border-radius: 50%;
+    border: none;
+    background-color: hsl(211, 21%, 22%);
+    cursor: pointer;
+}
+.rating1:hover{
+    background-color: hsl(25, 97%, 53%);
+}
+.rating1:focus{
+    background-color: hsl(0, 100%, 100%);
+    color: hsl(216, 12%, 8%);
+}
+#submit{
+    font-family: 'Overpass';
+    letter-spacing: 2px;
+    font-weight: 500;
+    width: 100%;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+#submit:focus{
+    background-color: hsl(0, 100%, 100%);
+    color: hsl(216, 12%, 8%);
+}
+
+.hidden{
+    display: none;
+}
+#thank-you{
+    background-color: hsl(213, 19%, 18%);
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+#thank-you-note{
+    margin: 10px auto;
+    background-color: hsl(211, 21%, 22%);
+    text-align: center;
+    border: none;
+    color: hsl(25, 100%, 61%);
+    border-radius: 20px;
+    padding: 4px 12px;
+    width: max-content;
+}
+.thank-you-heading{
+    font-family: 'Overpass';
+    margin-bottom: 0;
+}
+.thank-you-text{
+    word-spacing: 4px;
+    font-family: 'Overpass';
+    font-size: 18px;
+    text-align: center;
+}
